@@ -63,6 +63,10 @@ header {
     justify-content: space-evenly;
 }
 
+.burger-menu {
+    display: none !important;
+}
+
 header img {
     width: 180px;
 }
@@ -131,7 +135,7 @@ footer nav p {
 }
 
 .logo {
-    display: flex;
+    display: flex !important;
     gap: 25px;
 }
 
@@ -240,7 +244,6 @@ footer nav p {
 #contenaire-img2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    justify-items: center;
 }
 
 .img-vertical {
@@ -256,7 +259,7 @@ footer nav p {
 }
 
 #section2 div a {
-    text-decoration: none;
+    padding-left: 5px;
     color: black;
 }
 
@@ -419,6 +422,7 @@ footer nav p {
 }
 
 .section5-sous-container h3 {
+    font-weight: 400;
     padding: 5px 0;
 }
 
@@ -467,4 +471,164 @@ footer nav p {
     color: var(--color-red);
     text-decoration: none;
     border: 1px solid var(--color-red);
+}
+
+/* Responsive */
+@media screen and (max-width:1024px){
+    .burger-menu {
+        display: block !important;
+    }
+    h1 {
+        font-size: 35px;
+    }
+
+    h2 {
+        font-size: 21px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    header ul {
+        display: none;
+    }
+
+    #section1 article {
+        padding: 0;
+    }
+
+    #section2 {
+        grid-template-columns: 1fr;
+    }
+
+    #contenaire-img {
+        padding-top: 30px;
+    }
+
+    #section3-container {
+        padding: 0 10px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    #section3-container h3 {
+        text-align: start;
+    }
+
+    #section3-container p {
+        text-align: start;
+    }
+
+    .section4-container {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    #section5-header h2 {
+        font-size: 32px;
+    }
+
+    #section5-container {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .section5-sous-container {
+        justify-items: center
+    }
+
+    #section5 img {
+        padding-top: 75px;
+    }
+
+    footer ul {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:767px){
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    header {
+        gap: 27px;
+    }
+    #section1 {
+        grid-template-columns: 1fr;
+    }
+
+    #section1 img {
+        padding-top: 40px;
+    }
+
+    #section2-article {
+        padding: 0;
+    }
+
+    #contenaire-img {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    #contenaire-img2 {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .img-vertical {
+        width: 289px;
+        height: 320px;
+    }
+
+    .img-horizontal {
+        width: 289px;
+        height: 289px;
+    }
+
+    #section3-container {
+        grid-template-columns: 1fr;
+        padding: 0 10px;
+    }
+
+    #section3 img {
+        width: 282px;
+        height: 282px;
+    }
+
+    #section4 img {
+        width: 295px;
+        height: 200px;
+    }
+
+    #section5-header h2 {
+        font-size: 22px;
+    }
+
+    #section5-header a {
+        padding: 11px 8px;
+    }
+
+    #section5-header a:hover {
+        padding: 11px 8px;
+    }
+
+    #section5 img {
+        width: 285px;
+    }
+
+    /* solution provisoire pour les logo */
+    .logo {
+        display: none;
+    }
 }

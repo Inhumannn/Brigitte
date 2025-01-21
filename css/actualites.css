@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans", serif;
+}
+
+:root {
+    /* family */
+    --family-Gloria: "Gloria Hallelujah", serif;
+    --family-Noto: : "Noto Sans", serif;
+
+    /* color */
+    --color-black: #000;
+    --color-red: #cc3900;
+    --color-rose: #fbbbcd;
+    --color-blanc:  #fff;
+
+    /* size */
+    --size-a: 16px;
+    --size-h1: 45px;
+    --size-h2: 28px;
+    --size-p: 16px;
+    /* weight */
+    --weight-a: 600;
+    --weight-h1: 400;
+    --weight-h2: 400;
+    --weight-p: 500;
+}
+
+h1 {
+    font-family: var(--family-Gloria);
+    font-size: var(--size-h1);
+    font-weight: var(--weight-h1);
+}
+
+h2 {
+    font-family: var(--family-Gloria);
+    font-size: var(--size-h2);
+    font-weight: var(--weight-h2);
+}
+
+h3 {
+    font-family: var(--family-Gloria);
+}
+
+p {
+    font-size: var(--size-p);
+    font-weight: var(--weight-p);
+    line-height: 24px;
+}
+
+/* PAGE */
+/* Header */
+header {
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: space-evenly;
+}
+
+.burger-menu {
+    display: none !important;
+}
+
+header img {
+    width: 180px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: var(--color-black);
+    font-size: var(--size-a);
+    font-weight: var(--weight-a);
+}
+
+
+.active {
+    color: var(--color-red);
+}
+
+.logo {
+    display: flex;
+    gap: 25px;
+}
+
+.logo a {
+    color: var(--color-red);
+}
+
+/* footer */
+footer {
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: space-evenly;
+}
+
+footer img {
+    width: 180px;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+footer nav a {
+    text-decoration: none;
+    color: var(--color-black);
+    font-size: var(--size-a);
+    font-weight: var(--weight-a);
+}
+
+footer nav p {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.active {
+    color: var(--color-red);
+}
+
+.logo {
+    display: flex !important;
+    gap: 25px;
+}
+
+.logo a {
+    color: var(--color-red);
+}
+
+/* Main */
+#section1 {
+    background-color: var(--color-rose);
+    padding: 100px 0;
+    text-align: center;
+}
+
+.container-img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
