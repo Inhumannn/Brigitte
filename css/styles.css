@@ -370,3 +370,65 @@ footer nav p {
 .section4-logo {
     font-size: 25px;
 }
+
+/* section5 */
+#section5 {
+    max-width: 1440px;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+#section5-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+#section5-header h2 {
+    font-size: 45px;
+}
+
+#section5-header a {
+    padding: 11px 25px;
+    color: var(--color-black);
+    text-decoration: none;
+    border: 1px solid var(--color-red);
+}
+
+#section5-header a:hover {
+    padding: 11px 25px;
+    color: var(--color-red);
+    text-decoration: none;
+    border: 1px solid var(--color-black);
+}
+
+#section5 img {
+    width: 463px;
+    max-height: 500px;
+}
+
+#section5-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.section5-sous-container {
+    max-width: 663px;
+}
+
+.section5-sous-container h3 {
+    padding: 5px 0;
+}
+
+.section5-sous-container p {
+    padding: 5px 0 10px;
+}
+
+
+.section5-sous-container a {
+    text-decoration: none;
+    color: var(--color-black);
+    font-weight: 600;
+}
