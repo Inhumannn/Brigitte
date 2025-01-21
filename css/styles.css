@@ -42,6 +42,10 @@ h2 {
     font-weight: var(--weight-h2);
 }
 
+h3 {
+    font-family: var(--family-Gloria);
+}
+
 p {
     font-size: var(--size-p);
     font-weight: var(--weight-p);
@@ -210,8 +214,17 @@ footer nav p {
 }
 
 #section2-article {
-    padding: 95px;
+    padding: 50px 95px;
 }
+
+#section2-article h2 {
+    padding-bottom: 45px;
+}
+
+#section2-article p {
+    padding-bottom: 20px;
+}
+
 
 #container {
     display: grid;
@@ -258,6 +271,7 @@ footer nav p {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-bottom: 25px;
 }
 
 #section3-header a {
@@ -290,4 +304,69 @@ footer nav p {
 #section3 img {
     width: 332px;
     height: 300px;
+}
+
+/* Section4 */
+#section4-background {
+    background-color: #F7F7F7;
+}
+
+#section4  {
+    max-width: 1440px;
+    margin: auto;
+    padding-bottom: 150px
+}
+
+#section4  h2{
+    text-align: center;
+    font-size: var(--size-h1);
+    font-weight: var(--weight-h1);
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+#section4  h3{
+    text-align: center;
+}
+
+#section4 img {
+    width: 453px;
+    height: 300px;
+    padding-top: 35px;
+}
+
+.section4-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.section4-artiste {
+    max-width: 473px;
+}
+
+.section4-artiste p {
+    padding: 30px 0;
+}
+
+.section4-bouton {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section4-bouton > a {
+    padding: 5px 13px;
+    color: var(--color-black);
+    text-decoration: none;
+    border: 1px solid var(--color-red);
+}
+
+.section4-bouton > a:hover {
+    padding: 5px 13px;
+    color: var(--color-red);
+    text-decoration: none;
+    border: 1px solid var(--color-black);
+}
+
+.section4-logo {
+    font-size: 25px;
 }
