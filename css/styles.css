@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans", serif;
+}
+
+:root {
+    /* family */
+    --family-Gloria: "Gloria Hallelujah", serif;
+    --family-Noto: : "Noto Sans", serif;
+
+    /* color */
+    --color-black: #000;
+    --color-red: #cc3900;
+    --color-rose: #fbbbcd;
+    --color-blanc:  #fff;
+
+    /* size */
+    --size-a: 16px;
+    /* weight */
+    --weight-a: 600;
+}
+
+
+/* PAGE */
+/* Header */
+header {
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: space-evenly;
+}
+
+header img {
+    width: 180px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: var(--color-black);
+    font-size: var(--size-a);
+    font-weight: var(--weight-a);
+}
+
+
+.active {
+    color: var(--color-red);
+}
+
+.logo {
+    display: flex;
+    gap: 25px;
+}
+
+.logo a {
+    color: var(--color-red);
+}
+
+/* footer */
+footer {
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: space-evenly;
+}
+
+footer img {
+    width: 180px;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+footer nav a {
+    text-decoration: none;
+    color: var(--color-black);
+    font-size: var(--size-a);
+    font-weight: var(--weight-a);
+}
+
+footer nav p {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.active {
+    color: var(--color-red);
+}
+
+.logo {
+    display: flex;
+    gap: 25px;
+}
+
+.logo a {
+    color: var(--color-red);
+}
