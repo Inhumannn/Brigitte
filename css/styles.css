@@ -341,7 +341,7 @@ footer nav p {
 }
 
 .section4-artiste {
-    max-width: 473px;
+    max-width: 448px;
 }
 
 .section4-artiste p {
@@ -431,4 +431,40 @@ footer nav p {
     text-decoration: none;
     color: var(--color-black);
     font-weight: 600;
+}
+
+/* section6 */
+#section6 {
+    background-color: var(--color-red);
+    color: var(--color-blanc);
+    padding: 100px 0;
+    text-align: center;
+}
+
+#section6-article {
+    max-width: 780px;
+    margin: auto;
+}
+
+#section6-article h2 {
+    padding-bottom: 50px;
+}
+
+#section6-article p {
+    padding-bottom: 50px;
+}
+
+#section6-article a {
+    padding: 5px 13px;
+    color: var(--color-blanc);
+    text-decoration: none;
+    border: 1px solid var(--color-blanc);
+}
+
+#section6-article a:hover {
+    padding: 5px 13px;
+    background-color: var(--color-blanc);
+    color: var(--color-red);
+    text-decoration: none;
+    border: 1px solid var(--color-red);
 }
