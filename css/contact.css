@@ -243,3 +243,64 @@ textarea {
     background-repeat: no-repeat;
     background-position: 100% 15%;
 }
+
+/* Responsive */
+@media screen and (max-width:1024px){
+    header nav a {
+        display: none;
+    }
+    
+    .burger-menu {
+        display: block !important;
+    }
+    
+    footer {
+        padding-top: 25px;
+        gap: 0;
+        justify-content: space-between;
+    }
+
+    footer nav a {
+        display: none;
+    }
+
+    #section1 {
+        grid-template-columns: 1fr;
+    }
+
+    #left {
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width:767px){
+    header {
+        gap: 0;
+    }
+
+    header ul {
+        gap: 0;
+    }
+    footer img {
+        width: 100%;
+    }
+
+    #right {
+        justify-items: center;
+    }
+
+    #btn-envoyer {
+        text-align: center;
+    }
+    #btn-envoyer a {
+        padding: 8px 35px;
+    }
+
+    #btn-envoyer a:hover {
+        padding: 8px 35px;
+    }
+
+    #background-form {
+        background-position: 46% 34%;
+    }
+}

@@ -203,3 +203,43 @@ footer nav p {
     border-radius: 3px;
     padding: 8px 22px;
 }
+
+/* Responsive */
+@media screen and (max-width:1024px){
+    header nav a {
+        display: none;
+    }
+    
+    .burger-menu {
+        display: block !important;
+    }
+    
+    footer {
+        padding-top: 25px;
+        gap: 0;
+        justify-content: space-between;
+    }
+
+    footer nav a {
+        display: none;
+    }
+
+    .sous-container-img img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:767px){
+    header {
+        gap: 5px;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+    .container-img {
+        grid-template-columns: 1fr;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+}

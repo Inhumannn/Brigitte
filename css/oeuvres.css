@@ -169,3 +169,56 @@ main h1 {
 .section1-container img{
     width: 322px;
 }
+
+/* responsive */
+@media screen and (max-width:1024px){
+    header nav a {
+        display: none;
+    }
+    
+    .burger-menu {
+        display: block !important;
+    }
+    
+    footer {
+        padding-top: 25px;
+        gap: 0;
+        justify-content: space-between;
+    }
+    
+    footer nav a {
+        display: none;
+    }
+
+    #section1 {
+        grid-template-columns: 1fr;
+        gap: 60px;
+    }
+}
+
+
+@media screen and (max-width:767px){
+    header {
+        flex-direction: column;
+    }
+    
+    h1 {
+        font-size: 27px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .section1-container img {
+        width: 100%;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+}

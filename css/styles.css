@@ -550,6 +550,9 @@ footer nav p {
 
 
 @media screen and (max-width:767px){
+    header {
+        flex-direction: column;
+    }
     h1 {
         font-size: 28px;
     }
@@ -627,9 +630,8 @@ footer nav p {
     #section5 img {
         width: 285px;
     }
-
-    /* solution provisoire pour les logo */
-    .logo {
-        display: none;
+    
+    footer {
+        flex-direction: column;
     }
 }
