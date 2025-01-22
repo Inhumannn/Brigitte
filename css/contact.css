@@ -158,7 +158,7 @@ main {
 
 .section1-article {
     display: flex;
-    gap: 7px;
+    gap: 15px;
     align-items: baseline;
 }
 

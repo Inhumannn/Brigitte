@@ -171,7 +171,7 @@ footer nav p {
 }
 
 .sous-container-img img {
-    width: 463px;
+    width: 100%;
     object-fit: cover;
 }
 
