@@ -22,7 +22,7 @@
     /* size */
     --size-a: 16px;
     --size-h1: 45px;
-    --size-h2: 28px;
+    --size-h2: 45px;
     --size-p: 16px;
     /* weight */
     --weight-a: 600;
@@ -45,6 +45,8 @@ h2 {
 
 h3 {
     font-family: var(--family-Gloria);
+    font-size: 25px;
+    font-weight: 400;
 }
 
 p {
@@ -61,7 +63,7 @@ header {
     display: flex;
     align-items: center;
     gap: 50px;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .burger-menu {
@@ -151,7 +153,7 @@ footer nav p {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: 0 10px;
-    padding: 100px  150px;
+    padding: 50px 0;
 }
 
 #section1 img {
@@ -179,6 +181,7 @@ footer nav p {
 
 #section1 article h2 {
     padding-bottom: 15px;
+    font-size: 28px;
 }
 
 #section1 article p {
@@ -437,6 +440,7 @@ footer nav p {
 }
 
 .section5-sous-container h3 {
+    font-size: 22px;
     font-weight: 400;
     padding: 5px 0;
 }
