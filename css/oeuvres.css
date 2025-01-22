@@ -71,6 +71,7 @@ header {
 
 header img {
     width: 180px;
+    object-fit: cover;
 }
 
 header ul {

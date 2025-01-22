@@ -251,12 +251,14 @@ footer nav p {
     width: 170px;
     height: 250px;
     padding: 0 5px;
+    object-fit: cover;
 }
 
 .img-horizontal {
     width: 350px;
     height: 350px;
     padding: 0 5px;
+    object-fit: cover;
 }
 
 #section2 div a {
@@ -308,6 +310,7 @@ footer nav p {
 #section3 img {
     width: 332px;
     height: 300px;
+    object-fit: cover;
 }
 
 /* Section4 */
@@ -337,6 +340,7 @@ footer nav p {
     width: 453px;
     height: 300px;
     padding-top: 35px;
+    object-fit: cover;
 }
 
 .section4-container {
@@ -411,6 +415,7 @@ footer nav p {
 #section5 img {
     width: 463px;
     max-height: 500px;
+    object-fit: cover;
 }
 
 #section5-container {
