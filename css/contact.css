@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans", serif;
+}
+
+:root {
+    /* family */
+    --family-Gloria: "Gloria Hallelujah", serif;
+    --family-Noto: : "Noto Sans", serif;
+
+    /* color */
+    --color-black: #000;
+    --color-red: #cc3900;
+    --color-rose: #fbbbcd;
+    --color-blanc:  #fff;
+    --color-grey: #7A7A7A;
+
+    /* size */
+    --size-a: 16px;
+    --size-h1: 45px;
+    --size-h2: 20px;
+    --size-p: 16px;
+    /* weight */
+    --weight-a: 600;
+    --weight-h1: 400;
+    --weight-h2: 400;
+    --weight-p: 500;
+}
+
+h1 {
+    font-family: var(--family-Gloria);
+    font-size: var(--size-h1);
+    font-weight: var(--weight-h1);
+}
+
+h2 {
+    font-family: var(--family-Gloria);
+    font-size: var(--size-h2);
+    font-weight: var(--weight-h2);
+}
+
+h3 {
+    font-family: var(--family-Gloria);
+}
+
+p {
+    font-size: var(--size-p);
+    font-weight: var(--weight-p);
+    line-height: 24px;
+}
+
+/* PAGE */
+/* Header */
+header {
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: space-evenly;
+}
+
+.burger-menu {
+    display: none !important;
+}
+
+header img {
+    width: 180px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: var(--color-black);
+    font-size: var(--size-a);
+    font-weight: var(--weight-a);
+}
+
+
+.active {
+    color: var(--color-red);
+}
+
+.logo {
+    display: flex;
+    gap: 25px;
+}
+
+.logo a {
+    color: var(--color-red);
+}
+
+/* footer */
+footer {
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: space-evenly;
+}
+
+footer img {
+    width: 180px;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+footer nav a {
+    text-decoration: none;
+    color: var(--color-black);
+    font-size: var(--size-a);
+    font-weight: var(--weight-a);
+}
+
+footer nav p {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.active {
+    color: var(--color-red);
+}
+
+.logo {
+    display: flex;
+    gap: 25px;
+}
+
+.logo a {
+    color: var(--color-red);
+}
+
+/* Main */
+main {
+    max-width: 1440px;
+    margin: auto;
+}
+
+#section1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.section1-article {
+    display: flex;
+}
+
+.left {
+    max-width: 720px;
+    margin: auto;
+}
+
+
+.logo-sup {
+    align-content: center;
+    color: var(--color-red);
+}
+
+.right {
+    max-width: 720px;
+    margin: auto;
+}
+
+#form {
+    padding-top: 45px;
+}
+
+#form p {
+    padding-bottom: 7px;
+}
+
+input {
+    max-width: 460px;
+    width: 100%;
+    padding: 8px 6px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-bottom: 7px;
+}
+
+textarea {
+    max-width: 460px;
+    width: 100%;
+    padding: 8px 6px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+#btn-envoyer {
+    max-width: 718px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+
+
+#btn-envoyer a {
+    padding: 8px 206px;
+    text-decoration: none;
+    background-color: var(--color-rose);
+    color: var(--color-blanc);
+    border: 1px solid var(--color-rose);
+    border-radius: 3px;
+}
+
+#btn-envoyer a:hover {
+    padding: 8px 206px;
+    text-decoration: none;
+    background-color: var(--color-blanc);
+    color: var(--color-rose);
+    border: 1px solid var(--color-rose);
+    border-radius: 3px;
+}
