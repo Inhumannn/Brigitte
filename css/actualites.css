@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     font-family: "Noto Sans", serif;
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -166,7 +167,7 @@ footer nav p {
 #section2 > p {
     text-align: center;
     color: var(--color-grey);
-    padding: 10px 0 15px;
+    padding: 15px 0 20px;
 }
 
 .sous-container-img img {
@@ -183,6 +184,7 @@ footer nav p {
 
 #btn-affichezPlus {
     text-align: center;
+    padding: 20px 0;
 }
 
 #btn-affichezPlus a {
